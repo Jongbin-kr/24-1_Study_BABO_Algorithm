@@ -15,8 +15,8 @@ BOAZ BABO 3기 알고리즘 스터디
 
 
 ## 👉Team Member
-- 팀장: [22기 이혜승](https://github.com/hyeseunng/) 
-- 팀원: 
+- 팀장: [22기 분석 이혜승](https://github.com/hyeseunng/) 
+- 팀원: [22기 시각화 백현주](https://github.com/HyunZZZu), [21기 분석 서재은](https://github.com/JaeEunSeo), [21기 분석 임수현](https://github.com/yeonsue), [22기 분석 원종빈](https://github.com/Jongbin-kr/), [22기 분석 이하윤](https://github.com/hayo0n), [22기 분석 유소현](https://github.com/LYUSOHYEUN/), [22기 분석 유하린](https://github.com/halynyu), [20기 엔지니어링 최윤서](https://github.com/YunSeo00) 
 
 <br/>
 

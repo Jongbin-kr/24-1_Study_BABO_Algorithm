@@ -1,0 +1,39 @@
+# 5568번 카드놓기
+```python
+n=int(input())
+k=int(input())
+card=[input() for _ in range(n)]
+
+from itertools import permutations
+
+new_n=set()
+for i in permutations(card,k): # 순열 생성
+    new_n.add("".join(i)) # 집합을 통해 중복된 정수를 하나로 처리
+
+print(len(new_n))
+```
+# 1018 체스판 다시 칠하기
+```python
+n,m=map(int,input().split())
+board=[input() for _ in range(n)]
+chess=[['W','B','W','B','W','B','W','B'],
+['B','W','B','W','B','W','B','W'],
+['W','B','W','B','W','B','W','B'],
+['B','W','B','W','B','W','B','W'],
+['W','B','W','B','W','B','W','B'],
+['B','W','B','W','B','W','B','W'],
+['W','B','W','B','W','B','W','B'],
+['B','W','B','W','B','W','B','W']] # 체스판의 패턴 정의 (비교를 위함)
+result=n*m # 초기값 설정
+
+for i in range(n-7): # 사전에 정의된 패턴과 입력값을 비교하여 같은 색상일 경우 count 증가
+    for j in range(m-7):
+        count=0
+        for x in range(8):
+            for y in range(8):
+                if chess[x][y]==board[i+x][j+y]: 
+                    count+=1
+        result=min(result,min(count,64-count)) # count, 64-count를 통해 두가지 종류의 체스판을 한꺼번에 비교
+
+print(result)
+```

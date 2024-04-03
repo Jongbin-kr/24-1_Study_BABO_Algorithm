@@ -1,4 +1,4 @@
-# Ch03 DFS/BFS
+# Ch05 DFS/BFS
 ## 음료수 얼려 먹기
 ```python
 n,m=map(int, input().split())

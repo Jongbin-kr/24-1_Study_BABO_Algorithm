@@ -12,7 +12,7 @@
 
 
 
-## built-in datatype & method
+## built-in datatype & method ([출처](https://duri1994.github.io/python/algorithm/python-time-complexity/))
 
 
 ### 1. 리스트의 메소드 별 시간복잡도
@@ -84,5 +84,5 @@
 
 ## 주요 라이브러리별 시간복잡도
 - `itertools.permutations(n, r)`: $O(n!)$
-- `collections.Counter(): 카운터 객체를 만드는 데 $O(n)$, 이후 하나씩 꺼낼 때는 $O(1)$ [(출처)](https://hyp.is/J2kzrhafEe-rHafkhA1NCA/stackoverflow.com/questions/42461840/what-is-the-time-complexity-of-collections-counter-in-python)
+- `collections.Counter()`: 카운터 객체를 만드는 데 $O(n)$, 이후 하나씩 꺼낼 때는 $O(1)$ [(출처)](https://hyp.is/J2kzrhafEe-rHafkhA1NCA/stackoverflow.com/questions/42461840/what-is-the-time-complexity-of-collections-counter-in-python)
 - 
